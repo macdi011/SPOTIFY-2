@@ -67,7 +67,8 @@ if st.button('Show Recommendation'):
         st.text(recommended_music_names[4])
         st.image(recommended_music_posters[4])
 
-
+if name == “main”:
+main()
 
 
 
